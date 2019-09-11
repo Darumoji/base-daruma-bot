@@ -1,6 +1,0 @@
-{ 
-    "token"  : "der token",
-    "prefix" : "^\\s*[Bb][aA][sS][eE]\\s+",
-    "adminRoles": ["Diviruma"],
-    "modRoles": ["Diviruma"]
-  }

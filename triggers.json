@@ -1,0 +1,52 @@
+[
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[dD][aA][nN][cC][eE]\\s+(.*)"}]],
+    "target": "dance/$channel"
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[hH][uU][gG]\\s+(.*)"}]],
+    "target": "hug/$channel/$1"
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[sS][lL][aA][pP]\\s+(.*)"}]],
+    "target": "slap/$channel/$1"
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[pp][uU][rR][gG][eE]\\s+(.*)"}]],
+    "target": "purge/$channel/$1",
+    "authorization": [[{"role":"Diviruma"}],[{"admin": true}]]
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[sS][iI][lL][eE][nN][cC][eE]\\s+(.*)"}]],
+    "target": "silence/$member/$1",
+    "authorization": [[{"role":"Diviruma"},{"guild": "Darumoji"}]]
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[hH][oO][rR][nN]\\s+(.*)"}]],
+    "target": "horn/$member/$1",
+    "authorization": [[{"role":"Diviruma"},{"guild": "Darumoji"}]]
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[hH][aA][lL][oO]\\s+(.*)"}]],
+    "target": "halo/$member/$1",
+    "authorization": [[{"role":"Diviruma"},{"guild": "Darumoji"}]]
+  },
+  {
+    "message": [[{"text": "^\\s*[Bb][aA][sS][eE][\\,\\:]*\\s+[sS][aA][yY]\\s+(.*)"}]],
+    "target": "say/$channel/$1"
+  },{
+    "message": [[{"emoji": "19"}]],
+    "target": "react/$message/19"
+  },{
+    "message": [[{"user": "Rennen#8251"}]],
+    "target": "react/$message/deg"
+  },{
+    "message": [[{
+      "user": "BaseDaruma#8582"
+    }]],
+    "target": "react/$message/daruLEG"
+  },{
+    "reaction": ["georgewashington#8582"],
+    "target": "react/$message/georgewashington"
+  }
+]
