@@ -41,6 +41,12 @@
     "message": [[{"user": "Rennen#8251"}]],
     "target": "react/$message/deg"
   },{
+    "message": [[{"user": "rikku#7552"}]],
+    "target": "react/$message/countrygirls"
+  },{
+    "message": [[{"user": "puu#1436"}]],
+    "target": "react/$message/HOHO"
+  },{
     "message": [[{
       "user": "BaseDaruma#8582"
     }]],
